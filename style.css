@@ -1,0 +1,53 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+*:focus {
+    outline: none;
+}
+
+body {
+    margin-top: 10vh;
+    background-color: khaki;
+    font-family: Arial;
+    position: relative;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+h1 {
+    margin: 20px 0;
+}
+
+.box-1,
+.box-2 {
+    margin: 20px 0;
+    
+}
+
+.box-2 {
+    margin-left: 40px;
+}
+
+.submit {
+    padding: 10px 30px;
+    background-color: coral;
+    border-radius: 25px;
+    border: none;
+    box-shadow: 0 2px 5px rgba(0,0,0, 0.15);
+    cursor: pointer;
+}
+
+img {
+    display: block;
+    max-height: 600px;
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
